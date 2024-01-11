@@ -72,3 +72,29 @@
     background-color: var(--old-red);
     color: #ffffff;
 }
+
+/**
+ * name NoSuperReactions
+ * author xenona
+ * description Removes super reactions.
+ * version 1.1.1
+ * source https://github.com/xenrelle/Xens-BD-Dump/tree/main/plugins/NoSuperReactions */
+
+ div[class^="hideEmoji_"] {
+	opacity: 1;
+}
+
+/* Menu Options */
+div[class^="effectsWrapper_"],
+div[class^="burstToggle_"],
+div[aria-label="Add Super Reaction"],
+div[class^="reactions_"]:not(:has(div[class^="reaction_"]:not([style*="background"]))) {
+	display: none;
+}
+
+/* Actual Super Reactions */
+div[class^="reaction_"][style*="background"],
+div[class^="reactionDefault_"][aria-label*="super reaction"],
+div[class^="reactionSelected_"][aria-label*="super reaction"] {
+	display: none;
+}
