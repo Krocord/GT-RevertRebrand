@@ -1,4 +1,8 @@
 # GT-RevertRebrand Revived
+# I WILL NOT BE UPDATING ALL THIS REGULARLY I WILL BE UPDATING THIS WHEN I FEEL LIKE IT!
+# ALL CREDIT GOES TO KDCCreative FOR MOST OF THE THINGS IN THE ACTUALL CSS FILE
+# https://github.com/KDCCreative/GT-RevertRebrand
+# https://github.com/KDCCreative
 
 Reverts Discord's 2021 rebrand (font, colors, reactions, mentions, loading screen, home icon, reply ping color, and more)
 
