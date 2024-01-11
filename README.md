@@ -1,7 +1,8 @@
-# GT-RevertRebrand
+# GT-RevertRebrand Revived
 
 Reverts Discord's 2021 rebrand (font, colors, reactions, mentions, loading screen, home icon, reply ping color, and more)
 
+Here i try to pack this theme with everything you might need so yeah enjoy
 <details>
 <summary><strong>Screenshots</strong></summary>
 
