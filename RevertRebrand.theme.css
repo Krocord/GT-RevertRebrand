@@ -1,10 +1,8 @@
 /**
   * @name Revert Rebrand
-  * @author GooseNest
-  * @donate https://github.com/sponsors/CanadaHonk
-  * @description Reverts Discord's 2021 rebrand (font, colors, reactions, mentions, loading screen, home icon, reply ping color, and more)
+  * @author Krocord
+  * @description Reverts Discord's 2021 rebrand
   * @invite neMncS2
-  * @source https://Goose-Nest.github.io/GT-RevertRebrand/src/RevertRebrand.theme.css
   * @website https://github.com/Goose-Nest/GT-RevertRebrand
   * @version 5.2
 */
@@ -12,45 +10,65 @@
 /* If you do not want some things reverted, commend out imports like /* @import url("...") */
 
 /* [Recommended] Revert CSS variables: colors, fonts */
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css');
+@import url('https://KDCCreative.github.io/GT-RevertRebrand/src/variables.css');
 
 /* Generated hardcoded color fixes */
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/hardcoded.css');
+@import url('https://KDCCreative.github.io/GT-RevertRebrand/src/hardcoded.css');
 
 
 /* Individual components: */
 
 /* Revert mentions */
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/mentions.css');
+@import url('https://KDCCreative.github.io/GT-RevertRebrand/src/components/mentions.css');
 
 /* Revert reactions */
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/reactions.css');
+@import url('https://KDCCreative.github.io/GT-RevertRebrand/src/components/reactions.css');
 
 /* Revert profile pictures */
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/pfps.css');
+@import url('https://KDCCreative.github.io/GT-RevertRebrand/src/components/pfps.css');
 
 /* Revert folders (default colors back to old blurple) */
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/folders.css');
+@import url('https://KDCCreative.github.io/GT-RevertRebrand/src/components/folders.css');
 
 /* Revert windows wordmark */
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css');
+@import url('https://KDCCreative.github.io/GT-RevertRebrand/src/components/wordmark.css');
 
 /* [Optional] Revert new user popouts */
-/* @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/userPopout.css'); */
+/* @import url('https://KDCCreative.github.io/GT-RevertRebrand/src/components/userPopout.css'); */
 
 /* [Optional] Revert new role designs */
-/* @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/roles.css'); */
+/* @import url('https://KDCCreative.github.io/GT-RevertRebrand/src/components/roles.css'); */
 
 /* General changes: */
 
 /* Revert some BD specific elements */
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/bd.css');
+@import url('https://KDCCreative.github.io/GT-RevertRebrand/src/general/bd.css');
 
 /* Revert some inputs */
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/inputs.css');
+@import url('https://KDCCreative.github.io/GT-RevertRebrand/src/general/inputs.css');
 
 /* Revert some SVGs (colors for smaller icons) */
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/svgs.css');
+@import url('https://KDCCreative.github.io/GT-RevertRebrand/src/general/svgs.css');
 
 /* Revert some other minor things */
-@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css');
+@import url('https://KDCCreative.github.io/GT-RevertRebrand/src/general/other.css');
+
+/* Revert the old Icons (2023) */
+@import url(https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css);
+
+/* fixes the colors not being applied in certain cases */
+.theme-dark, .theme-light {
+  /* Revert new green to old color */
+  --info-positive-foreground: var(--old-green);
+  --status-positive-background: var(--old-green);
+  --text-positive: var(--old-green);
+
+  /* Revert new red to old color */
+  --text-danger: var(--old-red);
+  --info-danger-foreground: var(--old-red);
+  --status-danger-background: var(--old-red);
+}
+.colorDanger-3n-KnP.focused-3qFvc8 {
+    background-color: var(--old-red);
+    color: #ffffff;
+}
